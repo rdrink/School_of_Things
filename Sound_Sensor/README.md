@@ -1,3 +1,4 @@
+```c
 /*
 For use with this chip:
 https://www.sparkfun.com/products/9868
@@ -128,5 +129,5 @@ void loop()
     //minute depending on the sample_rate
     checkReset() ;
 }
-
+```
 
