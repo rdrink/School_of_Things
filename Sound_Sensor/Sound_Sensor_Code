@@ -1,4 +1,6 @@
 /*
+For use with this chip:
+https://www.sparkfun.com/products/9868
 Sample rate will determine how often an new value is added to the array
 The array size divided by the sample rate will tell you how much 
 time the array represents
