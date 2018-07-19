@@ -8,6 +8,7 @@ Code is in Hookup guide
 https://learn.sparkfun.com/tutorials/vkey-voltage-keypad-hookup-guide?_ga=1.129174789.884128913.1488570632
 
 For Particle Photon, these changes had to be made to the SparkFunVKeyVoltageKeypad.cpp file. Sample code was used to try the keypad. 
+
 ```c
 const PROGMEM VKey::VKeyScale VKey::scales[MAX] =
 {
