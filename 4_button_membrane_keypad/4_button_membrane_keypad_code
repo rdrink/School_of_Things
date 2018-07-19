@@ -1,5 +1,6 @@
 // Based off of http://www.instructables.com/id/1x4-Membrane-Keypad-w-Arduino/?ALLSTEPS 
 //Group 808's SY1617 project
+//Note: Phant no longer works. Replace with webhook to handle a push
 
 #include <SparkFun-Spark-Phant.h>
 #include <application.h>
@@ -19,8 +20,8 @@ double value1 = 0;
 double value2 = 0; 
 
 const char server[] = "https://data.sparkfun.com"; // Phant destination server
-const char publicKey[] = "4JRgAQqQl6F1m9Nd2D18"; // Phant public key - HAS TO BE CHANGED
-const char privateKey[] = "b5ErZp4pdRc4BjJvzg4r"; // Phant private key  - HAS TO BE CHANGED
+const char publicKey[] = "XXXX"; // Phant public key - HAS TO BE CHANGED
+const char privateKey[] = "XXXX"; // Phant private key  - HAS TO BE CHANGED
 Phant phant(server, publicKey, privateKey); // Create a Phant object
 
 const int POST_RATE = 3000; // Time between posts, in ms.
