@@ -1,3 +1,4 @@
+```c
 // Wire one side of the button to D0 (or another digital pin and edit code), then the other side of the button to ground
 
 int led = D7; // onboard LED
@@ -32,3 +33,4 @@ void loop()
   }
 
 }
+```
