@@ -1,3 +1,4 @@
+```c
 /*  simple momentary button code for Arduino or Photon
  *  
  *  Button connections:
@@ -51,5 +52,5 @@ void loop(){
   //
   // add button conditionals as needed
 }
-
+```
 
