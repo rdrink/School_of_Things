@@ -1,3 +1,4 @@
+```c
 // This #include statement was automatically added by the Particle IDE.
 #include <SparkFunPhant.h>
 
@@ -196,5 +197,5 @@ Serial.println("Pushing " + currentColor + " to phant") ;
     client.stop();	// Close the connection to server.
     return retVal;	// Return error (or success) code.
 }
-
+```
 
